@@ -6,8 +6,9 @@ A Multiagent System for Frequency Assignment in Cellular Radio Networks
 (EEE TRANSACTIONS ON VEHICULAR TECHNOLOGY, VOL. 49, NO. 5, SEPTEMBER 2000),
 which is an stochastic algorithm that allows to solve the graph coloring problem
 
->>> ant = AntSolver(G,n_ants=100,max_iters=15)
->>> ant.solve()
+	>>> ant = AntSolver(G,n_ants=100,max_iters=15)
+
+	>>> ant.solve()
 
 
 ## Parameters
