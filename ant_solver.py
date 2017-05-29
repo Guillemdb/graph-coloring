@@ -218,5 +218,5 @@ class AntSolver(object):
                 print("Finished in {0:.2f} seconds. Achieved cost {1:.0f}".format(perf_counter()-tic,self.cost_best))
                 break
                 self.i += 1
-            if self.cost_best != 0 :
-                print("Reached max iterations in {0:.2f} seconds and final conflict of {1:.0f}".format(perf_counter()-tic,self.cost_best))
+        if self.cost_best != 0 :
+	   print("Ended after {0} iterations in {1:.2f} seconds and final conflict of {2:.0f}".format(self.i, perf_counter()-tic,self.cost_best))
