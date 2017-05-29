@@ -13,7 +13,8 @@ which is an stochastic algorithm that allows to solve the graph coloring problem
 
 	>>> ant.solve()
    
-   [Out]
+   **[Out]**
+   
    -------------------------------------------
    Solving G with 1000 nodes and 449735 edges: 
                 
