@@ -4,13 +4,17 @@
 This class implements a graph coloring algorithm described in the paper
 [A Multiagent System for Frequency Assignment in Cellular Radio Networks](https://github.com/Guillem-db/graph-coloring/blob/master/IEEE.Freq.Assign.pdf)
 (EEE TRANSACTIONS ON VEHICULAR TECHNOLOGY, VOL. 49, NO. 5, SEPTEMBER 2000),
-which is an stochastic algorithm that allows to solve the graph coloring problem
+which is an stochastic algorithm that allows to solve the graph coloring problem.
 
+## Example
+  **[In]**
+  
 	>>> ant = AntSolver(G,n_ants=100,max_iters=15)
 
 	>>> ant.solve()
-	
-	----------------------------------------
+   
+   [Out]
+   -------------------------------------------
    Solving G with 1000 nodes and 449735 edges: 
                 
    930 colors needed and initial cost 978 
@@ -24,6 +28,8 @@ which is an stochastic algorithm that allows to solve the graph coloring problem
   - Gain -0.9979550102249489
                 
   Finished in 1185.79 seconds. Achieved cost 0
+  
+  --------------------------------------------
 
 
 ## Parameters
